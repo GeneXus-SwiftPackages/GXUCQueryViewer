@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCQueryViewer",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCQueryViewer-1.0.0-beta+20230503140111.xcframework.zip",
-			checksum: "b7c794a8349f0101125441cb2cd9fdccb43e333e7592070edbe0cff0e24bc160"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCQueryViewer-1.0.0-beta+20230504180356.xcframework.zip",
+			checksum: "ffefe6d6c3a28e6a86ff897f53f62b9c294a8bcc231e4f6198a7b27394c7531c"
 		)
 	]
 )
