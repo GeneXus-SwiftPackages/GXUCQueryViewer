@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXUCQueryViewerWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-beta.12")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-beta.13")
 	],
 	targets: [
 		.target(name: "GXUCQueryViewerWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCQueryViewer",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXUCQueryViewer-3.0.0-beta.12.xcframework.zip",
-			checksum: "1b95e13ad04e309ee2d20bd2c0b82e530b52ab9d0fb604dd203d56e55f0513a2"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXUCQueryViewer-3.0.0-beta.13.xcframework.zip",
+			checksum: "997f83988283c18098f5b0d920c12d00675a72385d06b9f264cd750ee476e915"
 		)
 	]
 )
