@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXUCQueryViewer",
-	platforms: [.iOS("13.0"), .visionOS("1.0")],
+	platforms: [.iOS("15.0"), .visionOS("2.0")],
 	products: [
 		.library(
 			name: "GXUCQueryViewer",
 			targets: ["GXUCQueryViewerWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.15")
 	],
 	targets: [
 		.target(name: "GXUCQueryViewerWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXUCQueryViewer",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXUCQueryViewer-3.0.0-rc.8.xcframework.zip",
-			checksum: "2057323feb40bad55d279cb12f0614620d6ad5897b110c8feabb7e89518b1dbe"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXUCQueryViewer-3.0.0-rc.15.xcframework.zip",
+			checksum: "6a4f312cc5aa75b57054a29530576360a82e43327ec418e7542b228f118dbb19"
 		)
 	]
 )
